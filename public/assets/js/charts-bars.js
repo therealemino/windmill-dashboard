@@ -1,6 +1,4 @@
-/**
- * For usage, visit Chart.js docs https://www.chartjs.org/docs/latest/
- */
+
 const barConfig = {
   type: 'bar',
   data: {
@@ -29,6 +27,32 @@ const barConfig = {
     },
   },
 }
-
 const barsCtx = document.getElementById('bars')
 window.myBar = new Chart(barsCtx, barConfig)
+
+
+// // MOBILE > DASHBOARD: TIER DISTRIBUTION  
+// const tierDistributionBarConfig = {
+//   type: 'bar',
+//   data: {
+//     labels: ['Tier 1', 'Tier 2', 'Tier 3'],
+//     datasets: [
+//       {
+//         label: 'Tiers',
+//         backgroundColor: '#A30937',
+//         // borderColor: window.chartColors.blue,
+//         borderWidth: 1,
+//         data: [56, 13, 43, ],
+//       },
+//     ],
+//   },
+//   options: {
+//     responsive: true,
+//     base: 0,
+//     legend: {
+//       display: false,
+//     },
+//   },
+// }
+// const tierDistributionBarsCtx = document.getElementById('tier-distribution')
+// window.myBar = new Chart(tierDistributionBarsCtx, tierDistributionBarConfig)

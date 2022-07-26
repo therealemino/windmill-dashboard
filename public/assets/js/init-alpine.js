@@ -47,6 +47,38 @@ function data() {
     togglePagesMenu() {
       this.isPagesMenuOpen = !this.isPagesMenuOpen
     },
+    isMerchantsMenuOpen: false,
+    toggleMerchantMenu() {
+      this.isMerchantsMenuOpen = !this.isMerchantsMenuOpen
+    },
+    isPartnersMenuOpen: false,
+    togglePartnersMenu() {
+      this.isPartnersMenuOpen = !this.isPartnersMenuOpen
+    },
+    isMobileMenuOpen: false,
+    toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen
+    },
+    isUssdMenuOpen: false,
+    toggleUssdMenu() {
+      this.isUssdMenuOpen = !this.isUssdMenuOpen
+    },
+    isPlatiniumMenuOpen: false,
+    togglePlatiniumMenu() {
+      this.isPlatiniumMenuOpen = !this.isPlatiniumMenuOpen
+    },
+    isSpeedLoanMenuOpen: false,
+    toggleSpeedLoanMenu() {
+      this.isSpeedLoanMenuOpen = !this.isSpeedLoanMenuOpen
+    },
+    isDisbursementMenuOpen: false,
+    toggleDisbursementMenu() {
+      this.isDisbursementMenuOpen = !this.isDisbursementMenuOpen
+    },
+    isPartnersMenuOpen: false,
+    toggleDisbursmentMenu() {
+      this.isPartnersMenuOpen = !this.isPartnersMenuOpen
+    },
     // Modal
     isModalOpen: false,
     trapCleanup: null,
